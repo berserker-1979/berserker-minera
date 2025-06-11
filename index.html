@@ -8,22 +8,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="banner">
-        <img src="assets/banner.jpg" alt="Banner de Mina" class="banner-img">
-        <div class="logo-container">
-            <img src="assets/logo.png" alt="Logo Berserker Minera" class="logo">
-            <h1>Innovación, tecnología y asesoría para la pequeña minería artesanal</h1>
-        </div>
+
+    <header>
+        <img src="assets/banner.jpg" alt="Banner principal" class="banner">
+        <h1>Bienvenidos a Berserker Minera</h1>
+        <p>Innovación, tecnología y asesoría para la pequeña minería artesanal</p>
     </header>
 
     <section id="nosotros">
         <h2>Nosotros</h2>
+        <img src="assets/nosotros.jpg" alt="Equipo Berserker Minera" class="seccion-imagen">
         <p><strong>Misión:</strong> Brindar herramientas y conocimientos a pequeños mineros para que mejoren su producción de manera sostenible.</p>
         <p><strong>Visión:</strong> Ser la referencia nacional en apoyo a la minería artesanal en Perú.</p>
         <p><strong>Valores:</strong> Compromiso, honestidad, innovación y sostenibilidad.</p>
     </section>
 
-    <section id="servicios">
+    <section id="servicios" style="background-image: url('assets/servicios.jpg'); background-size: cover;">
         <h2>Servicios</h2>
         <ul>
             <li>Consultoría minera artesanal</li>
@@ -35,6 +35,7 @@
 
     <section id="app">
         <h2>Nuestra App: Gestión Minera Control</h2>
+        <img src="assets/app.jpg" alt="App Gestión Minera" class="seccion-imagen">
         <ul>
             <li>Registro de personal y maquinaria</li>
             <li>Control de producción</li>
@@ -46,6 +47,7 @@
 
     <section id="proyectos">
         <h2>Proyectos Realizados</h2>
+        <img src="assets/proyectos.jpg" alt="Proyectos" class="seccion-imagen">
         <ul>
             <li>Cooperativa minera Puno – Optimización de ciclo de carguío</li>
             <li>Ayacucho – Capacitación a 20 mineros artesanales</li>
@@ -55,27 +57,29 @@
 
     <section id="equipo">
         <h2>Nuestro Equipo</h2>
+        <img src="assets/equipo.jpg" alt="Nuestro equipo" class="seccion-imagen">
         <ul>
-            <li>Luis Tirado – Fundador</li>
+            <li>Luis Tirado – Fundador (ingeniero de minas con enfoque en tecnología)</li>
             <li>Equipo multidisciplinario: técnicos, desarrolladores, geólogos</li>
         </ul>
     </section>
 
     <section id="galeria">
         <h2>Galería</h2>
-        <p>(Aquí van las imágenes de maquinaria, campo, app, etc.)</p>
+        <img src="assets/galeria.jpg" alt="Galería" class="seccion-imagen">
     </section>
 
-    <section id="contacto">
+    <section id="contacto" style="background-image: url('assets/contacto.jpg'); background-size: cover;">
         <h2>Contáctanos</h2>
-        <p>Email: luchotirado28@gmail.com</p>
-        <p>WhatsApp: 929941419</p>
+        <p>📧 luchotirado28@gmail.com</p>
+        <p>📱 WhatsApp: 929941419</p>
         <form>
-            <input type="text" placeholder="Nombre"><br>
-            <input type="email" placeholder="Correo"><br>
-            <textarea placeholder="Mensaje"></textarea><br>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo" required>
+            <textarea placeholder="Mensaje" required></textarea>
             <button type="submit">Enviar</button>
         </form>
     </section>
+
 </body>
 </html>
