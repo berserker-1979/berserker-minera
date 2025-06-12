@@ -1,85 +1,71 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Berserker Minera</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berserker Minera</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>Bienvenidos a Berserker Minera</h1>
+    <p>Innovación, tecnología y asesoría para la pequeña minería artesanal</p>
+  </header>
 
-    <header>
-        <img src="assets/banner.jpg" alt="Banner principal" class="banner">
-        <h1>Bienvenidos a Berserker Minera</h1>
-        <p>Innovación, tecnología y asesoría para la pequeña minería artesanal</p>
-    </header>
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="servicio">
+      <img src="assets/servicio_consultoria.jpg" alt="Consultoría">
+      <h3>Consultoría Minera Artesanal</h3>
+    </div>
+    <div class="servicio">
+      <img src="assets/servicio_capacitacion.jpg" alt="Capacitación">
+      <h3>Capacitación Técnica</h3>
+    </div>
+    <div class="servicio">
+      <img src="assets/servicio_documentos.jpg" alt="Gestión Documental">
+      <h3>Gestión Documental y Legal</h3>
+    </div>
+  </section>
 
-    <section id="nosotros">
-        <h2>Nosotros</h2>
-        <img src="assets/nosotros.jpg" alt="Equipo Berserker Minera" class="seccion-imagen">
-        <p><strong>Misión:</strong> Brindar herramientas y conocimientos a pequeños mineros para que mejoren su producción de manera sostenible.</p>
-        <p><strong>Visión:</strong> Ser la referencia nacional en apoyo a la minería artesanal en Perú.</p>
-        <p><strong>Valores:</strong> Compromiso, honestidad, innovación y sostenibilidad.</p>
-    </section>
+  <section id="app">
+    <h2>Nuestra App: Gestión Minera Control</h2>
+    <img src="assets/app_mockup.jpg" alt="App Mockup">
+    <ul>
+      <li>Registro de personal y maquinaria</li>
+      <li>Control de producción</li>
+      <li>Análisis de rendimiento</li>
+      <li>Gestión de combustible y mantenimiento</li>
+      <li>Reportes PDF automáticos</li>
+    </ul>
+  </section>
 
-    <section id="servicios" style="background-image: url('assets/servicios.jpg'); background-size: cover;">
-        <h2>Servicios</h2>
-        <ul>
-            <li>Consultoría minera artesanal</li>
-            <li>Capacitación técnica</li>
-            <li>Implementación tecnológica</li>
-            <li>Gestión documental y legal</li>
-        </ul>
-    </section>
+  <section id="proyectos">
+    <h2>Proyectos Realizados</h2>
+    <div class="proyecto">
+      <img src="assets/proyecto1.jpg" alt="Proyecto 1">
+      <p>Cooperativa minera Puno – Optimización de ciclo de carguío</p>
+    </div>
+    <div class="proyecto">
+      <img src="assets/proyecto2.jpg" alt="Proyecto 2">
+      <p>Ayacucho – Capacitación a 20 mineros artesanales</p>
+    </div>
+  </section>
 
-    <section id="app">
-        <h2>Nuestra App: Gestión Minera Control</h2>
-        <img src="assets/app.jpg" alt="App Gestión Minera" class="seccion-imagen">
-        <ul>
-            <li>Registro de personal y maquinaria</li>
-            <li>Control de producción</li>
-            <li>Análisis de rendimiento</li>
-            <li>Gestión de combustible y mantenimiento</li>
-            <li>Reportes PDF automáticos</li>
-        </ul>
-    </section>
+  <section id="equipo">
+    <h2>Nuestro Equipo</h2>
+    <img src="assets/equipo.jpg" alt="Equipo">
+    <p>Luis Tirado – Fundador</p>
+    <p>Equipo multidisciplinario: técnicos, desarrolladores, geólogos</p>
+  </section>
 
-    <section id="proyectos">
-        <h2>Proyectos Realizados</h2>
-        <img src="assets/proyectos.jpg" alt="Proyectos" class="seccion-imagen">
-        <ul>
-            <li>Cooperativa minera Puno – Optimización de ciclo de carguío</li>
-            <li>Ayacucho – Capacitación a 20 mineros artesanales</li>
-            <li>Piura – Implementación de app para control de voladuras</li>
-        </ul>
-    </section>
+  <section id="galeria">
+    <h2>Galería</h2>
+    <img src="assets/tecnologia.jpg" alt="Tecnología Minera">
+  </section>
 
-    <section id="equipo">
-        <h2>Nuestro Equipo</h2>
-        <img src="assets/equipo.jpg" alt="Nuestro equipo" class="seccion-imagen">
-        <ul>
-            <li>Luis Tirado – Fundador (ingeniero de minas con enfoque en tecnología)</li>
-            <li>Equipo multidisciplinario: técnicos, desarrolladores, geólogos</li>
-        </ul>
-    </section>
-
-    <section id="galeria">
-        <h2>Galería</h2>
-        <img src="assets/galeria.jpg" alt="Galería" class="seccion-imagen">
-    </section>
-
-    <section id="contacto" style="background-image: url('assets/contacto.jpg'); background-size: cover;">
-        <h2>Contáctanos</h2>
-        <p>📧 luchotirado28@gmail.com</p>
-        <p>📱 WhatsApp: 929941419</p>
-        <form>
-            <input type="text" placeholder="Nombre" required>
-            <input type="email" placeholder="Correo" required>
-            <textarea placeholder="Mensaje" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-
+  <footer>
+    <p>Contáctanos: luchotirado28@gmail.com | WhatsApp: 929941419</p>
+  </footer>
 </body>
 </html>
